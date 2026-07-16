@@ -8,7 +8,7 @@ def game():
             print("Nice to meet you!!")
             break
         elif(user_command == "y" or user_command == "Y"):
-            user_choice = input("Enter rock paper or scissor: ").lower
+            user_choice = input("Enter rock paper or scissor: ").lower()
 
             choices = ["rock", "paper", "scissor"]
 
